@@ -17,7 +17,6 @@
 // ----------------------------
 #include <dxgi.h>
 #pragma comment(lib, "dxgi.lib")
-
 #include <d3d11.h>
 #pragma comment(lib, "d3d11.lib")
 #include <d3dcompiler.h>
@@ -26,12 +25,6 @@
 //**EFFECTS11 (Helper for loading Effects (D3DX11))
 //https://fx11.codeplex.com/
 #include "d3dx11effect.h" //[AdditionalLibraries/DX_Effects11/include/d3dx11effect.h]
-//#if defined(DEBUG) || defined(_DEBUG)
-//#pragma comment(lib, "DxEffects11_vc14_Debug.lib")
-//#else 
-//#pragma comment(lib, "DxEffects11_vc14_Release.lib")
-//#endif
-
 #include <DirectXMath.h>
 #include <DirectXColors.h>
 #include <DirectXPackedVector.h>
